@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@apollo/react-testing": "^4.0.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "apollo-boost": "^0.4.9",
     "axios": "^0.21.1",
+    "dayjs": "^1.10.5",
+    "graphql": "^15.5.1",
+    "graphql-tag": "^2.12.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.1",
@@ -18,9 +24,9 @@
       "src/**/*.js",
       "!src/index.js",
       "!src/hooks/*.js",
-      "!src/selectors/*.js",
       "!src/mappers/*.js",
-      "!src/utils/*.js"
+      "!src/utils/*.js",
+      "!src/App.js"
     ],
     "coverageThreshold": {
       "global": {

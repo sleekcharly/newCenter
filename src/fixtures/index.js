@@ -1,18 +1,19 @@
 // in proparations for testing
-export const singularStory = {
-  by: "Charles Ukasoanya",
-  id: 1,
-  time: 1234543484,
-  title: "Tarnshed: Google Responds",
-  url: "https://something.com/hackernewstut",
+
+export const allArticles = {
+  allArticles: [
+    {
+      author: "Charles Ukasoanya",
+      id: 1,
+      time: 1234543484,
+      title: "Tarnished: Google Responds",
+      url: "https://something.com/hackernewstut",
+      source: "HackerNews",
+      __typename: "author",
+    },
+  ],
 };
 
-export const storyIds = [1];
-
-export const emptySingularStory = {
-  by: undefined,
-  id: undefined,
-  time: undefined,
-  title: undefined,
-  url: undefined,
+export const noArticles = {
+  allArticles: [],
 };

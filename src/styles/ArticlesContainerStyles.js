@@ -24,7 +24,7 @@ body {
 ul{margin: 0; padding: 0;}
 `;
 
-export const StoriesContainerWrapper = styled.main`
+export const ArticlesContainerWrapper = styled.main`
   max-width: 1140px;
   padding: 20px 15px;
   margin: auto;
